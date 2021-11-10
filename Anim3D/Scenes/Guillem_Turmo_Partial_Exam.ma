@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Guillem_Turmo_Partial_Exam.ma
-//Last modified: Wed, Nov 10, 2021 12:18:30 PM
+//Last modified: Wed, Nov 10, 2021 12:29:15 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "4.2.3";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Enterprise v2009 (Build: 19043)";
-fileInfo "UUID" "8DF67FD1-4E86-BCD8-92EA-7B813ED0914D";
+fileInfo "UUID" "EF0588F1-4B68-D561-8003-3B820EE9728D";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "38F46899-4547-B652-5F71-8F9C8978274F";
@@ -37,19 +37,21 @@ createNode camera -s -n "perspShape" -p "persp";
 createNode transform -s -n "top";
 	rename -uid "00FA2E6B-4FD7-10F3-0BFD-85B538FE29F6";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.9461068866041773 81.30089326872374 204.60378378258793 ;
-	setAttr ".rpt" -type "double3" 3.9767398593382775e-14 6.1686134202342218e-14 -3.0367868899862905e-14 ;
+	setAttr ".t" -type "double3" 36.928809516376241 117.96226933737933 83.061540889559723 ;
+	setAttr ".r" -type "double3" -21.97183285162447 25.328926918893131 -2.639123754578229e-14 ;
+	setAttr ".rp" -type "double3" -3.5527136788005009e-15 0 0 ;
+	setAttr ".rpt" -type "double3" 3.9404455652354244e-14 6.3849081878222673e-14 -2.7730509634199129e-14 ;
 createNode camera -s -n "topShape" -p "top";
 	rename -uid "D4BACC23-44E0-2305-B64D-298B1C6EE14B";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".fl" 19.020483861808685;
-	setAttr ".coi" 203.67541436406555;
+	setAttr ".coi" 97.985577900408103;
 	setAttr ".ow" 222.04407890149696;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
 	setAttr ".man" -type "string" "top_mask";
-	setAttr ".tp" -type "double3" -1.9461068866041376 81.300893268723797 0.92836941852232258 ;
+	setAttr ".tp" -type "double3" -1.9461068866042055 81.300893268723797 0.92836941852232258 ;
 	setAttr ".hc" -type "string" "viewSet -t %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "front";
