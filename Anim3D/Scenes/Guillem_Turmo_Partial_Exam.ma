@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
-//Name: MASKBOY.ma
-//Last modified: Wed, Nov 10, 2021 12:16:25 PM
+//Name: Guillem_Turmo_Partial_Exam.ma
+//Last modified: Wed, Nov 10, 2021 12:18:30 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "4.2.3";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Enterprise v2009 (Build: 19043)";
-fileInfo "UUID" "6EFAEB43-4805-49C3-2A05-4788DD7B7A2B";
+fileInfo "UUID" "8DF67FD1-4E86-BCD8-92EA-7B813ED0914D";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "38F46899-4547-B652-5F71-8F9C8978274F";
@@ -22601,4 +22601,4 @@ connectAttr "dgjs.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
 connectAttr "ikSplineSolver.msg" ":ikSystem.sol" -na;
-// End of MASKBOY.ma
+// End of Guillem_Turmo_Partial_Exam.ma
